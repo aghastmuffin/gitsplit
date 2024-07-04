@@ -1,4 +1,4 @@
-const urlObj = new URL(url);
+const urlObj = new URL(window.location.href);
 const params = new URLSearchParams(urlObj.search);
 
 const code = params.get('code');
